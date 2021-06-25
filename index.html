@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> Make a Robot Move </title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+            </style><style>
+            @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+        </style>
+        <div class="RobotArm">
+         <p class="one">لتحريك ذراع الروبوت:</p>
+         <form action="connect.php" method="POST"> 
+             <input class="Range" type="range" name="Engine1" id="R1" min="0" max="180" step="45"  onmousemove="Rr1(this.value)" >
+             <label for="R1">محرك 1 </label>
+             <span id="VR1">90</span>
+             <br>
+             <input class="Range" type="range" name="Engine2" id="R2" min="0" max="180" step="45" onmousemove="Rr2(this.value)">
+             <label  for="R2">محرك 2 </label>
+             <span id="VR2">90</span>
+             <br>
+             <input class="Range"  type="range" name="Engine3" id="R3" min="0" max="180" step="45" onmousemove="Rr3(this.value)">
+             <label for="R3">محرك 3 </label> 
+             <span id="VR3">90</span>
+             <br>
+             <input class="Range"  type="range" name="Engine4" id="R4" min="0" max="180" step="45" onmousemove="Rr4(this.value)">
+             <label for="R4">محرك 4 </label> 
+             <span id="VR4">90</span>
+             <br>
+             <input class="Range"  type="range" name="Engine5" id="R5" min="0" max="180" step="45" onmousemove="Rr5(this.value)">
+             <label for="R5">محرك 5 </label>
+             <span id="VR5">90</span> 
+             <br>
+             <input class="Range"  type="range" name="Engine6" id="R6" min="0" max="180" step="45" onmousemove="Rr6(this.value)">
+             <label for="R6">محرك 6 </label> 
+             <span id="VR6">90</span>
+             <br>
+             <input class="button" type="submit" id="B1" name= "save" value="حفظ">
+             <br>
+             <input class="button" type="submit" id="B2" value="تشغيل" name ="On" value = "1">
+         </form>
+        </div>
+        <script type="text/javascript">
+            function Rr1(value) {
+                document.getElementById('VR1').innerHTML = value;
+            }
+            function Rr2(value) {
+                document.getElementById('VR2').innerHTML = value;
+            }
+            function Rr3(value) {
+                document.getElementById('VR3').innerHTML = value;
+            }
+            function Rr4(value) {
+                document.getElementById('VR4').innerHTML = value;
+            }
+            function Rr5(value) {
+                document.getElementById('VR5').innerHTML = value;
+            }
+            function Rr6(value) {
+                document.getElementById('VR6').innerHTML = value;
+            }
+        </script>
+    </body>
+</html>

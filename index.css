@@ -1,0 +1,81 @@
+body {
+    background-image: url(First_Robot.jpg);
+    background-size: cover ;
+    background-position-y: -100px;
+}
+.RobotArm {
+    position: fixed;
+    width: 100%;
+    margin-left: 35%;
+    font-family: 'Cairo', sans-serif;
+}
+span {
+   float: left;
+   margin-right: 10px;
+   font-weight: bolder;
+   width: 2%;
+}
+.Range {
+  direction: rtl;  
+}
+label {
+    font-weight:bolder;
+    cursor: text;
+}
+.one {
+    direction: rtl;
+    text-align: left;
+    margin-left: 140px;
+    font-size: 130%;
+    color: #FFF;
+}
+.Range {
+    -webkit-appearance: none;
+    width: 25%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .Range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #972a1b;
+    cursor: pointer;
+  }
+  
+  .Range::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #972a1b;
+    cursor: pointer;
+  }
+  .button {
+    margin-left: -7%;
+    margin-bottom: 2px;
+    background-color: #972a1b; /* Blue*/
+    border: black 1px solid;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #B1 {
+    padding: 8px 30px;
+  }
+  #B2 {
+    padding: 8px 24.5px;
+  }
+  .button:hover {background-color: #d66767}
+
+  
