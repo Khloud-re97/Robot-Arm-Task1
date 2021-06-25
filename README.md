@@ -8,4 +8,4 @@ Which contains the layouts for the user interface according to the HTML file
 # 3- SQL File:
 Which contains two basic databases, the first to store the values of the motors of the arm from the user and the second to determine the state of the arm ON or OFF
 # 4- PHP File:
-Which contains the code to connect and display the database with the user interface and display the entered values and the working status of the arm
+Which contains the code to connect and display the database with the user interface and display the entered values and the working status of the arm and display it for the other teams in the trainning 
